@@ -7,7 +7,7 @@ const Footer = () => {
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
-    setIsOpen(false); // Close dropdown after selecting
+    setIsOpen(false); 
   };
 
   return (
@@ -17,35 +17,35 @@ const Footer = () => {
           <div className='card'>
             <ul className="footer-list">
               <li><h4>Need Help</h4></li>
-              <li>Contact Us</li>
-              <li>Track Order</li>
-              <li>Returns & Refunds</li>
-              <li>FAQ’s</li>
-              <li>Career</li>
+              <a href='#'><li>Contact Us</li></a>
+              <a href='#'><li>Track Order</li></a>
+              <a href='#'><li>Returns & Refunds</li></a>
+              <a href='#'><li>FAQ’s</li></a>
+              <a href='#'><li>Career</li></a>
             </ul>
 
             <ul className="footer-list">
               <li><h4>Company</h4></li>
-              <li>About Us</li>
-              <li>Euphoria Blog</li>
-              <li>Euphoriastan</li>
-              <li>Collaboration</li>
-              <li>Media</li>
+              <a href='#'><li>About Us</li></a>
+              <a href='#'><li>Euphoria Blog</li></a>
+              <a href='#'><li>Euphoriastan</li></a>
+              <a href='#'><li>Collaboration</li></a>
+              <a href='#'><li>Media</li></a>
             </ul>
 
             <ul className="footer-list">
               <li><h4>More Info</h4></li>
-              <li>Terms and Conditions</li>
-              <li>Privacy Policy</li>
-              <li>Shipping Policy</li>
-              <li>Sitemap</li>
+              <a href='#'><li>Terms and Conditions</li></a>
+              <a href='#'><li>Privacy Policy</li></a>
+              <a href='#'><li>Shipping Policy</li></a>
+              <a href='#'><li>Sitemap</li></a>
             </ul>
 
             <ul className="footer-list">
               <li><h4>Location</h4></li>
-              <li>support@euphoria.in</li>
-              <li>Eklingpura Chouraha, Ahmedabad Main Road</li>
-              <li>(NH-8 Near Mahadev Hotel) Udaipur, India-313002</li>
+              <a href='#'><li>support@euphoria.in</li></a>
+              <a href='#'><li>Eklingpura Chouraha, Ahmedabad Main Road</li></a>
+              <a href='#'><li>(NH-8 Near Mahadev Hotel) Udaipur, India-313002</li></a>
             </ul>
           </div>
         </div>   
@@ -53,10 +53,10 @@ const Footer = () => {
 
       <div className="footer-bottom wrapper">
         <div className="social-icons">
-          <img src="assets/facebook.svg" alt="Facebook" />
-          <img src="assets/instagram.svg" alt="Instagram" />
-          <img src="assets/twitter.svg" alt="Twitter" />
-          <img src="assets/linkedin.svg" alt="LinkedIn" />
+          <a href='#'><img src="assets/facebook.svg" alt="Facebook" /></a>
+          <a href='#'><img src="assets/instagram.svg" alt="Instagram" /></a>
+          <a href='#'><img src="assets/twitter.svg" alt="Twitter" /></a>
+          <a href='#'><img src="assets/linkedin.svg" alt="LinkedIn" /></a>
         </div>
 
         <div className="download-app">
@@ -107,7 +107,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-copy">
-        <p>Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</p>
+        <a href='#'><p>Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</p></a>
       </div>
     </footer>
   );

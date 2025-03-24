@@ -2,6 +2,7 @@ const CategoriesData = [
   {
     id: 1,
     name: "Shirts",
+
     description: "Explore Now!",
     image:"assets/img-5.jpg"  
   },

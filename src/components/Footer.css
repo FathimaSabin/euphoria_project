@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-around;
   gap: 70px;
+  flex-wrap: wrap;
 }
 
 .footer .footer-container .footer-top .card .footer-list li { 
@@ -28,10 +29,13 @@
 }
 
 .footer-bottom {
+ 
   display: flex;
-  gap: 400px;
+  gap: 300px;
   align-items: center;
   padding: 0px 100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .footer-bottom .social-icons {
@@ -93,7 +97,6 @@
 
 .popular-categories {
   position: relative;
-  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -156,3 +159,51 @@
   font-size: 18px;
   font-weight: 600;
 }
+
+
+
+@media (max-width: 1200px) {
+  .footer .footer-container .footer-top .card .footer-list li h4 {
+    font-size: 25px;
+  }
+
+  .footer-bottom {
+    gap: 200px;
+  }
+
+  .footer-bottom .download-app .download-app-container .g-pay .right a h1 {
+    font-size: 13px
+  }
+  .footer-bottom .download-app .download-app-container .app-store .right a h1 {
+    font-size: 13px
+  }
+
+}
+
+@media all and (max-width: 768px) {}
+@media all and (max-width: 640px) {
+  .footer-copy p {
+    font-size: 15px;
+  }
+  .popular-categories h4 {
+    font-size: 24px;
+  }
+}
+@media all and (max-width: 480px) {
+  .footer-bottom .download-app {
+    display: none;
+  }
+  .footer-copy p {
+    font-size: 12px;
+  }
+  .popular-categories h4 {
+    font-size: 15px;
+    letter-spacing: 0.08em;
+  }
+  .popular-categories img {
+    width: 25px;
+  }
+
+
+}
+

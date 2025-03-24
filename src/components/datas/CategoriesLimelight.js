@@ -1,6 +1,6 @@
 const CategoriesLimelight = [
     {
-      id: 1,
+      id: 13,
       name: "Black Sweatshirt with ....",
       brand: "Jhanvi’s Brand",
       price: "$123.00",
@@ -8,21 +8,21 @@ const CategoriesLimelight = [
 
     },
     {
-      id: 2,
+      id: 14,
       name: "Line Pattern Black H...",
       brand: "AS’s Brand",
       price: "$37.00",
       image: "assets/img-17.jpg",
     },
     {
-      id: 3,
+      id: 15,
       name: "Black Shorts",
       brand: "MM’s Brand",
       price: "$37.00",
       image: "assets/img-18.jpg",
     },
     {
-      id: 4,
+      id: 16,
       name: "Lavender Hoodie with ....",
       brand: "Nike’s Brand",
       price: "$119.00",
