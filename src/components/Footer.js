@@ -51,7 +51,7 @@ const Footer = () => {
         </div>   
       </div>
 
-      <div className="footer-bottom wrapper">
+      <div className="footer-bottom-container wrapper">
         <div className="social-icons">
           <a href='#'><img src="assets/facebook.svg" alt="Facebook" /></a>
           <a href='#'><img src="assets/instagram.svg" alt="Instagram" /></a>
